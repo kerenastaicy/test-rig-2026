@@ -13,12 +13,15 @@ The system uses a phone camera for image capture, a laptop for
 image processing and an ESP32 for mechanism control.
 
 
-##  How It Works
+## OVERALL WORKING
 
-1. Mixed objects are loaded into the feeder.
-2. The feeder separates one object.
-3. The object reaches the inspection area.
-4. The phone camera captures the object.
-5. The laptop classifies the object.
-6. The classification is sent to the ESP32.
-7. The ESP32 activates the sorting mechanism.
+1. Mixed objects are loaded into the feeder. A rotating disc moves the objects toward a curved guide, which directs them into an inclined gravity chute with ridges.
+2. Feeder Monitoring: An IR beam-break sensor in the chute detects object movement and helps identify possible jams using a timeout.
+3. Object Detection: A second IR beam-break sensor near the inspection area detects when an object arrives for classification.
+4. Image Capture: The phone camera provides the video feed to the laptop, and the arrival signal triggers the classification process.
+5. Classification: The laptop uses OpenCV + ML to classify the object as Nut, Bolt, or Miscellaneous.
+6. Control: The classification result is sent to the ESP32 via Wi-Fi, which controls the physical sorting process.
+7. Sorting: The ESP32 controls a servo-driven three-way diverter, directing the object into the appropriate bin.
+
+
+
