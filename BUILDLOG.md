@@ -30,5 +30,17 @@
 
   ### CHALLENGE
   - What if the items enter inspection area quicker than the sorting function, then multiple items will enter inspection area.
-  
+ 
+## 20 August 2026
+
+### WHAT I DID?
+- ML CV part: YOLOv8n object detection with three classes: Nut, Bolt, and Misc.
+  #### WHY?
+  - Multiple objects: YOLO can detect that 2+ objects arrived, whereas classical CV would need more hand-written rules.
+  - Orientation: More robust when nuts/bolts are rotated
+  - Lighting: Generally more robust to changes in lighting and appearance.
+  - Misc: You can use a confidence threshold; low-confidence detections go to Misc.
+  - Future-proof: If you later add more object types, you can retrain the model.
+
+ - Analysed the communication and interfaces
   
