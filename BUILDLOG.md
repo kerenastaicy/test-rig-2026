@@ -43,4 +43,7 @@
   - Future-proof: If you later add more object types, you can retrain the model.
 
  - Analysed the communication and interfaces
-  
+
+
+## 22 August 2026
+- Started CAD modelling of major parts with approximate dimensions
