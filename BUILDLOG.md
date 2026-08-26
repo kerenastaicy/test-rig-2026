@@ -41,9 +41,16 @@
   - Lighting: Generally more robust to changes in lighting and appearance.
   - Misc: You can use a confidence threshold; low-confidence detections go to Misc.
   - Future-proof: If you later add more object types, you can retrain the model.
-
- - Analysed the communication and interfaces
+  -  - Analysed the communication and interfaces
 
 
 ## 22 August 2026
 - Started CAD modelling of major parts with approximate dimensions
+ 
+  ## 26 August 2026
+ Analysed the drawback and complexity of binary cascade flap ( synchronizing of the flap opening timing)
+ ### found out a better sorting mechanism: actuated chute
+- updated the architecture
+  
+
+
