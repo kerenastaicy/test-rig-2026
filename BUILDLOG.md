@@ -51,6 +51,11 @@
  Analysed the drawback and complexity of binary cascade flap ( synchronizing of the flap opening timing)
  ### found out a better sorting mechanism: actuated chute
 - updated the architecture
+
+  ## 8 September 2026
+  - Realised that adding conveyor would make the model more efficient
+  - Designed and assembled overall CAD. Further improvements to be made
+    
   
 
 
