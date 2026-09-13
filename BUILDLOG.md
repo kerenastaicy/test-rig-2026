@@ -55,6 +55,8 @@
   ## 8 September 2026
   - Realised that adding conveyor would make the model more efficient
   - Designed and assembled overall CAD. Further improvements to be made
+## 13 September 2026
+- Finalised the CAD model with new updates.
     
   
 
