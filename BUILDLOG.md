@@ -57,6 +57,9 @@
   - Designed and assembled overall CAD. Further improvements to be made
 ## 13 September 2026
 - Finalised the CAD model with new updates.
+
+## 25 September 2026
+ - Built basic structure of conveyor
     
   
 
