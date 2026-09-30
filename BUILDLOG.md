@@ -60,6 +60,9 @@
 
 ## 25 September 2026
  - Built basic structure of conveyor
+
+## 29 September 2026
+- did the wirings
     
   
 
