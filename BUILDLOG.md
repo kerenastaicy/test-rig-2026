@@ -63,6 +63,18 @@
 
 ## 29 September 2026
 - did the wirings
+
+## 4 October 2026
+- Modified the overall structure of the conveyor to make it more stable
+- 3d printed stepper mount
+- tried to make stepper work using 5v smps and l293d driver
+
+## 9 October 2026
+CHALLENGES: 
+- stepper only vibrating
+- servo not moving when connected using buck converter and 12v smps
+- CV capturing random light reflections as items
+  
     
   
 
